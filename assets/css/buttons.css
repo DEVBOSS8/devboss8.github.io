@@ -8,14 +8,18 @@
 	border-radius: 8px;
     text-align: center;
    color: #090909;
-   background-color: grey;
-
-    margin: 8px;
+  
+   max-width: 50%;
+   min-width: 60%;
+   background-color: rgba(135, 134, 145, 0.677);
+   
+    margin: 13px 0px 0px 0px;
     padding: 13px 28px 10px 8px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-shadow: 1px 1px 1px rgba(76, 68, 68, 0.14);
     text-transform: uppercase;
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
 }
+
 .btn-sm {
     font-size: 11px;
     font-weight: 300;
@@ -45,4 +49,13 @@
     animation: AnimationName 3s ease infinite;
    
     border: medium none;
+}
+
+.alignbtn{  
+
+    color: #090909;
+    
+ 
+    width: 100%;
+    
 }

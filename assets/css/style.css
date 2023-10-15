@@ -477,11 +477,12 @@ main {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 70%;
+  margin-bottom: 3%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 15px 15px;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
@@ -1722,6 +1723,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     bottom: auto;
     top: 0;
     left: auto;
+   
     right: 0;
     width: max-content;
     border-radius: 0 20px;
@@ -1834,6 +1836,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     min-width: 75%;
     width: 75%;
     margin: 0;
+    
   }
 
 
